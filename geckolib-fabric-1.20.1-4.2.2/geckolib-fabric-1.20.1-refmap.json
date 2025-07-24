@@ -1,0 +1,36 @@
+{
+  "mappings": {
+    "software/bernie/geckolib/mixins/fabric/ItemRendererAccessor": {
+      "blockEntityRenderer": "field_27770:Lnet/minecraft/class_756;"
+    },
+    "software/bernie/geckolib/mixins/fabric/MixinHumanoidArmorLayer": {
+      "Lnet/minecraft/client/renderer/entity/layers/HumanoidArmorLayer;renderModel(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/world/item/ArmorItem;Lnet/minecraft/client/model/HumanoidModel;ZFFFLjava/lang/String;)V": "Lnet/minecraft/class_970;method_23192(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_1738;Lnet/minecraft/class_572;ZFFFLjava/lang/String;)V",
+      "renderArmorPiece": "Lnet/minecraft/class_970;method_4169(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;Lnet/minecraft/class_1309;Lnet/minecraft/class_1304;ILnet/minecraft/class_572;)V"
+    },
+    "software/bernie/geckolib/mixins/fabric/MixinItemRenderer": {
+      "Lnet/minecraft/client/renderer/BlockEntityWithoutLevelRenderer;renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V": "Lnet/minecraft/class_756;method_3166(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V",
+      "render": "Lnet/minecraft/class_918;method_23179(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;IILnet/minecraft/class_1087;)V"
+    },
+    "software/bernie/geckolib/mixins/fabric/TextureManagerMixin": {
+      "getTexture(Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/client/renderer/texture/AbstractTexture;": "Lnet/minecraft/class_1060;method_4619(Lnet/minecraft/class_2960;)Lnet/minecraft/class_1044;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "software/bernie/geckolib/mixins/fabric/ItemRendererAccessor": {
+        "blockEntityRenderer": "field_27770:Lnet/minecraft/class_756;"
+      },
+      "software/bernie/geckolib/mixins/fabric/MixinHumanoidArmorLayer": {
+        "Lnet/minecraft/client/renderer/entity/layers/HumanoidArmorLayer;renderModel(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/world/item/ArmorItem;Lnet/minecraft/client/model/HumanoidModel;ZFFFLjava/lang/String;)V": "Lnet/minecraft/class_970;method_23192(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_1738;Lnet/minecraft/class_572;ZFFFLjava/lang/String;)V",
+        "renderArmorPiece": "Lnet/minecraft/class_970;method_4169(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;Lnet/minecraft/class_1309;Lnet/minecraft/class_1304;ILnet/minecraft/class_572;)V"
+      },
+      "software/bernie/geckolib/mixins/fabric/MixinItemRenderer": {
+        "Lnet/minecraft/client/renderer/BlockEntityWithoutLevelRenderer;renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V": "Lnet/minecraft/class_756;method_3166(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V",
+        "render": "Lnet/minecraft/class_918;method_23179(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;IILnet/minecraft/class_1087;)V"
+      },
+      "software/bernie/geckolib/mixins/fabric/TextureManagerMixin": {
+        "getTexture(Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/client/renderer/texture/AbstractTexture;": "Lnet/minecraft/class_1060;method_4619(Lnet/minecraft/class_2960;)Lnet/minecraft/class_1044;"
+      }
+    }
+  }
+}
