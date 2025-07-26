@@ -1,0 +1,12 @@
+(base) PS C:\Users\User\Desktop\ne\lol\fabric-loom_second> tree /F /A
+Структура папок
+Серийный номер тома: 8228-9D75
+C:.
+\---fabric-loom.gradle.plugin
+    +---1.11-SNAPSHOT
+    |   \---1a9bbacdcb4b20715a8993e8c25c0b2f1289d8d9
+    |           fabric-loom.gradle.plugin-1.11-SNAPSHOT.pom
+    |
+    \---1.3.10
+        \---c54d5acf14922de8ab7c95bcf9e16877d005bca7
+                fabric-loom.gradle.plugin-1.3.10.pom
